@@ -1,9 +1,9 @@
 ## Snippets
 
-[LVM (logical volume manager)](lvm/)
+[LVM (logical volume manager)](lvm)
 
 ## Cheetsheets
 
-[Bash cheetsheets](cheetsheets/bash/)
+[Bash cheetsheets](cheetsheets/bash)
 
-[SQL](cheetsheets/sql/)
+[SQL](cheetsheets/sql)
