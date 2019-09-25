@@ -2,8 +2,6 @@
 
 Mysql get column namers from table
 ```sql
-
-
     SELECT COLUMN_NAME, DATA_TYPE, IS_NULLABLE, COLUMN_DEFAULT
     FROM INFORMATION_SCHEMA.COLUMNS
     WHERE table_name = 'tbl_name'
