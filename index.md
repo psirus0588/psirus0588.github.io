@@ -1,6 +1,6 @@
 ## Snippets
 
-[LVM (logical volume manager)](lvm)
+[LVM (logical volume manager)](snippets/lvm)
 
 ## Cheetsheets
 
