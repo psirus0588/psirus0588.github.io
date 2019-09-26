@@ -1,4 +1,4 @@
-	wget https://psirus0588.github.io/lvm/snapshot_daily_logical_volume.sh
+	wget https://psirus0588.github.io/snippets/lvm/snapshot_daily_logical_volume.sh
 	
 ## A script to take daily snapshots of a LVM volume
 
