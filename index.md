@@ -1,6 +1,7 @@
 ## Snippets
 
 [LVM (logical volume manager)](snippets/lvm)
+
 [Git](snippets/git)
 
 
