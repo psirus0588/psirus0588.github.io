@@ -4,6 +4,7 @@
 
 [Git](snippets/git)
 
+[Termux](snippets/termux)
 
 ## Cheetsheets
 
