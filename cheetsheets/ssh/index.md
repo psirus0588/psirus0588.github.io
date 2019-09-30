@@ -22,3 +22,9 @@ alternative
     ssh user@host /bin/bash << EOF
       pwd
     EOF
+
+#### execute commands on many servers
+for s in host1 host2 host3
+do
+   ssh user@${s} uptime
+done
