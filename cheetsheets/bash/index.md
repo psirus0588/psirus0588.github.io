@@ -2,16 +2,16 @@
 
 ### Bash tab autocomplition - Advanced mode
 * Ubuntu
-    
-    sudo apt install bash-completion
+        
+        sudo apt install bash-completion
     
 * MacOS
     
-    brew install bash-completion@2
+        brew install bash-completion@2
     
 * Source
     
-    https://github.com/scop/bash-completion
+        https://github.com/scop/bash-completion
     
 
 ### Find and delete files created more then 30 days
