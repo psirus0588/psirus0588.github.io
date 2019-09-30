@@ -1,6 +1,6 @@
 ## Snippets
 
-[LVM (logical volume manager)](snippets/lvm)
+[LVM](snippets/lvm)
 
 [Git](snippets/git)
 
@@ -8,6 +8,9 @@
 
 ## Cheetsheets
 
-[Bash cheetsheets](cheetsheets/bash)
+[Bash](cheetsheets/bash)
+
+[SSH](cheetsheets/ssh)
 
 [SQL](cheetsheets/sql)
+
