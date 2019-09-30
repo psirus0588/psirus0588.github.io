@@ -1,15 +1,15 @@
 # bash
 
 ### Bash tab autocomplition - Advanced mode
-Ubuntu
+* Ubuntu
     
     sudo apt install bash-completion
     
-MacOS
+* MacOS
     
     brew install bash-completion@2
     
-Source
+* Source
     
     https://github.com/scop/bash-completion
     
