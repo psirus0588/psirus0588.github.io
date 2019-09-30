@@ -22,7 +22,9 @@ alternative
 alternative
 
     ssh user@host /bin/bash << EOF
-      pwd
+      hostname
+      uptime
+      date
     EOF
 
 
