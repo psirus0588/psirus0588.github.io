@@ -3,7 +3,7 @@
     apt install -y openssh
 
 #### Generate SSH key
-    ssh-keygen -t rsa -b 4096
+    ssh-keygen -t rsa -b 4096 -C "$(whoami)@$(hostname)-$(date -I)"
 
 #### Copy public key
 
