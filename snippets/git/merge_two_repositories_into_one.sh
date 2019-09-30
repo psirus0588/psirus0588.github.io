@@ -1,5 +1,4 @@
 #!/bin/bash
-
 # Use merge_two_repositories_into_one.sh [repository_one_name] [repository_one_url] [repository_two_name] [repository_two_url]
 # ToDo add loop to merge many repositories from list in file .git_merged_repositories
 
