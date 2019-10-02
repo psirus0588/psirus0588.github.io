@@ -1,12 +1,25 @@
 #!/bin/bash 
 
 # GCloud
-PROJECT=$1
-MANAGE_ZONE=$2
-DOMAIN=$3
-IP=$4
+#############################
+# Argumentst
+# $1 is command type
+#
+# create - Create $2[project], $3[manage] $4[zone] and A records with $5[ip] 
+#
+#############################
 TTL=604800
 #ttl 604800 for one week 
+
+if [ $1 = "create" ]; then
+  PROJECT=$2
+  MANAGE_ZONE=$3
+  DOMAIN=$4
+  IP=$5
+else
+  echo "command not exist"
+  exit 1
+fi
 
 #Create project
 gcloud alpha projects create $PROJECT --name="$PROJECT"
