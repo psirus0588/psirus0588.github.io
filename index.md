@@ -4,6 +4,8 @@
 
 [Git](snippets/git)
 
+[GCloud](snippets/gcloud)
+
 [Termux](snippets/termux)
 
 ## Cheetsheets
