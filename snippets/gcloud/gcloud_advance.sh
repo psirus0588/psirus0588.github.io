@@ -1,9 +1,7 @@
 #!/bin/bash 
 
 # GCloud
-# 1create 2MANAGE_ZONE 3DOMAIN 4IP 5for 6PROJECT
-
-PROJECT=$6
+PROJECT=$1
 MANAGE_ZONE=$2
 DOMAIN=$3
 IP=$4
