@@ -14,5 +14,7 @@
 
 [SSH](cheetsheets/ssh)
 
+[Git](cheetsheets/git)
+
 [SQL](cheetsheets/sql)
 
