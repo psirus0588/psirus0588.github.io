@@ -5,11 +5,12 @@
 # Argumentst
 # $1 is command type
 #
-# create - Create $2[project], $3[manage] $4[zone] and A records with $5[ip] 
+# gcloud_advance.sh create $2[project], $3[managezone] $4[domain] and A records to server $5[ip] 
 #
 #############################
-TTL=604800
+TTL=86400
 #ttl 604800 for one week 
+#ttl 86400 for one day 
 
 if [ $1 = "create" ]; then
   PROJECT=$2
@@ -18,7 +19,7 @@ if [ $1 = "create" ]; then
   IP=$5
   
   #Create project
-  gcloud alpha projects create $PROJECT --name="$PROJECT"
+#  gcloud alpha projects create $PROJECT --name="$PROJECT"
 
   #Create dns zone
   gcloud beta dns --project=$PROJECT managed-zones create $MANAGE_ZONE --description= --dns-name=$DOMAIN.

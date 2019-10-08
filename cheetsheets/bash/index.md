@@ -30,5 +30,15 @@
         echo 'Usage: ./keygen.sh filename-for-key comment-for-key';
     fi
 
+
+### Get count unique lines of output
+    printf ' a \n b \n b ' | sort | uniq -c
+
+
+### Html to pdf
+    sudo apt-get install wkhtmltopdf 
+    wkhtmltopdf https://wkhtmltopdf.org/ wkhtmltopdf.pdf 
+    less wkhtmltopdf.pdf
+
 #### Links
 [write iso linux to usb](write_iso_linux_to_usb.md)
