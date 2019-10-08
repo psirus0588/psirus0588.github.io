@@ -35,10 +35,9 @@
     printf ' a \n b \n b ' | sort | uniq -c
 
 
-### Html to pdf
-    sudo apt-get install wkhtmltopdf 
-    wkhtmltopdf https://wkhtmltopdf.org/ wkhtmltopdf.pdf 
-    less wkhtmltopdf.pdf
+### Html to pdf download and open
+    # sudo apt-get install wkhtmltopdf chromium
+    wkhtmltopdf https://wkhtmltopdf.org/ output.pdf && chromium output.pdf
 
 #### Links
 [write iso linux to usb](write_iso_linux_to_usb.md)
