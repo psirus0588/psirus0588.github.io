@@ -1,0 +1,21 @@
+#!/usr/bin/php
+# https://www.php.net/manual/ru/features.commandline.usage.php
+<?php
+
+if ($argc != 2 || in_array($argv[1], array('--help', '-help', '-h', '-?'))) {
+?>
+
+Это консольный PHP-скрипт, принимающий один аргумент.
+
+  Использование:
+  <?php echo $argv[0]; ?> <option>
+
+  <option> Любое слово, которое вы хотели бы
+  напечатать. Опции  --help, -help, -h,
+  или -? покажут текущую справочную информацию.
+
+<?php
+} else {
+    echo $argv[1];
+}
+?>
