@@ -8,6 +8,9 @@
 
 [Termux](snippets/termux)
 
+[Sublime](snippets/sublime)
+
+
 ## Cheetsheets
 
 [Bash](cheetsheets/bash)
@@ -17,4 +20,8 @@
 [Git](cheetsheets/git)
 
 [SQL](cheetsheets/sql)
+
+[PHP](cheetsheets/php)
+
+[XML](cheetsheets/xml)
 
