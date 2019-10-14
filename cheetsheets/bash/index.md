@@ -32,6 +32,8 @@
 ### Get count unique lines of output
     printf ' a \n b \n b ' | sort | uniq -c
 
+### Get count files in folders
+        for i in */ .*/ ; do      echo -n $i": " ;      (find "$i" -type f | wc -l) ;  done
 
 ### Html to pdf download and open
     # sudo apt-get install wkhtmltopdf chromium
