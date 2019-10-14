@@ -1,5 +1,7 @@
 ## Snippets
 
+[Bash](snippets/bash)
+
 [LVM](snippets/lvm)
 
 [Git](snippets/git)
