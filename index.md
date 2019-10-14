@@ -27,3 +27,7 @@
 
 [XML](cheetsheets/xml)
 
+
+## Templates
+
+[PHP - console_script](https://raw.githubusercontent.com/psirus0588/psirus0588.github.io/master/templates/php/console_script)
