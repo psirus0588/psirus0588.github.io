@@ -14,6 +14,12 @@
         https://github.com/scop/bash-completion
     
 
+### Find in command line
+
+    find /path/to/dir -type d -name "folder_name*" -print
+    find /path/to/dir -name "file_name*" -print
+
+
 ### Find and delete files created more then 30 days
     find /path/to/dir -mindepth 1 -mtime +30
     
