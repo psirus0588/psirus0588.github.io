@@ -44,6 +44,9 @@
 ### Html to pdf download and open
     # sudo apt-get install wkhtmltopdf chromium
     wkhtmltopdf https://wkhtmltopdf.org/ output.pdf && chromium output.pdf
+    
+### Download ftp folder
+    wget -m --user="login" --password="pass" ftp://address.org/path
 
 #### Links
 [write iso linux to usb](write_iso_linux_to_usb.md)
