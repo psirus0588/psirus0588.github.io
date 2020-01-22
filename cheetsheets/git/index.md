@@ -10,3 +10,10 @@
 back N commits from HEAD
 
     git checkout -b new_branch HEAD~N
+
+
+### Update fork from upstream
+
+    git remote add upstream [ssh_or_https_link_to_upstream_repository]
+    git fetch upstream
+    git pull upstream master
