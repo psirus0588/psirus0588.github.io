@@ -47,6 +47,9 @@
     
 ### Download ftp folder
     wget -m --user="login" --password="pass" ftp://address.org/path
+    
+### Find and replace 
+    sed -i 's/original/new/g' file.txt
 
 #### Links
 [write iso linux to usb](write_iso_linux_to_usb.md)
