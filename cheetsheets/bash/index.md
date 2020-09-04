@@ -20,8 +20,10 @@
     find /path/to/dir -name "file_name*" -print
 
 
-### Find and delete files created more then 30 days
+### Find or delete files created more then 30 days
     find /path/to/dir -mindepth 1 -mtime +30
+    
+    find /var/www/www-root/data/ftp_prices/instrument_ru -name "*" -mtime +8 -exec rm -f {} \;
     
 
 ### Bash script for generate SSH RSA keys
