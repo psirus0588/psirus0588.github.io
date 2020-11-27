@@ -5,6 +5,9 @@
 #### Generate SSH key
     ssh-keygen -t rsa -b 4096 -C "$(whoami)@$(hostname)-$(date -I)"
 
+without promt
+
+    ssh-keygen -t rsa -N '' -f ~/.ssh/id_rsa <<< y
 
 #### Copy public key
 
