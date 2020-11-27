@@ -7,7 +7,7 @@
 
 without promt
 
-    ssh-keygen -t rsa -N '' -f ~/.ssh/id_rsa <<< y
+    ssh-keygen -t rsa -b 4096 -N '' -f ~/.ssh/id_rsa <<< y
 
 #### Copy public key
 
