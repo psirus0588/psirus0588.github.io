@@ -37,3 +37,9 @@ alternative
         ssh user@${s} uptime
         ssh user@${s} 'bash -s' < script.sh
     done
+    
+    
+    
+####
+
+    strace -f -F -s1000 -t -T `ps aux | grep -E 'php-fpm' | awk '{print "-p" $2}' | xargs`
