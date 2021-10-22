@@ -7,4 +7,5 @@ Delete all containers with volumes:
 Delete all the images:
 
 ```docker rmi -f $(docker images -a -q)```
+
 Remember, you should remove all the containers before removing all the images from which those containers were created.
